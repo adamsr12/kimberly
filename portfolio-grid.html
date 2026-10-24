@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio :: Grid</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+<style>
+	h1 {
+		text-align: center;
+		font: 48pt/1.4em Oswald, serif;
+	} #page {
+		width: 928px;
+		height: 512px;
+		// border: 1px dashed gray;
+		margin: 0 auto;
+		display: grid;
+		grid-template: auto / repeat(3,auto);
+	} img {
+		width: 200px;
+	} figure {
+		width: 200px;
+	} figcaption {
+		font: 12pt/1.4em Lato, sans-serif;
+		text-align: center;
+	}
+</style>
+</head>
+
+<body>
+	<h1>Portfolio &bull; Grid Layout</h1>
+	<div id="page">
+		<figure>
+		<a href="06_flyer_mockup-856x573.png">
+		<img src="thumb-06_flyer_mockup-856x573.png" />
+		</a>
+		<figcaption>Caption 1</figcaption>
+		</figure>
+		
+		<figure>
+		<a href="banner-large.png">
+		<img src="thumb-banner-large.png" />
+		</a>
+		<figcaption>Caption 2</figcaption>
+		</figure>
+		
+		<figure>
+		<a href="thumb-banner-large.png">
+		<img src="thumb-public_poster_2.0.jpg" />
+		</a>
+		<figcaption>Caption 3</figcaption>
+		</figure>
+	</div>
+</body>
+</html>
