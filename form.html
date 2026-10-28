@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio :: Flexbox</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+<style>
+	h1 {
+		text-align: center;
+		font: 48pt/1.4em Oswald, serif;
+	} form {
+		width: 500px;
+		height: 400px;
+		background: lightblue;
+		margin: 0 auto;
+		font: 14pt/1.4em Lato;
+		padding: 24px;
+	} input[type="text"], textarea {
+		width: 98%;
+		font: 12pt/1.4em Oswald;
+		margin-bottom: 6px;
+	} textarea {
+		height: 100px;
+	} input[type="submit"] {
+		width: 100px;
+		height: 40px;
+		background: lightgreen;
+		border-radius: 6px;
+		border: 1px solid gray;
+		display: block;
+		margin: 0 auto;
+	} input[type="submit"]:hover {
+		background: lavender;
+	}
+</style>
+</head>
+
+<body>
+	<h1>Contact Me</h1>
+	<form action="#" method="post">
+		<label>First name</label><br/>
+		<input type="text" /><br/>
+		<label>Last name</label><br/>
+		<input type="text" /><br/>
+		<label>Email</label><br/>
+		<input type="text" /><br/>
+		<label>Message</label><br/>
+		<textarea placeholder="Write message here."></textarea><br/>
+		<input type="submit" />
+	</form>
+</body>
+</html>
